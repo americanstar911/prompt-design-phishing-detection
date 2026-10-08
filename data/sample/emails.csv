@@ -1,0 +1,9 @@
+id,label,email_text
+S01,phishing,"Your account will be suspended today. Use the link below to verify your account."
+S02,phishing,"A package delivery is on hold. Pay the small redelivery fee using this link."
+S03,phishing,"Your mailbox is full. Sign in now to prevent incoming messages from being blocked."
+S04,phishing,"An unusual payment was detected. Reply with your account details to cancel it."
+S05,legitimate,"The library will close at 6 pm today. Please return borrowed books by Friday."
+S06,legitimate,"Your course assignment is due next Monday. The rubric is available in the student portal."
+S07,legitimate,"The department meeting has moved to Room 204. The time remains 2 pm."
+S08,legitimate,"Your order has shipped. You can check its status in the store app you normally use."
