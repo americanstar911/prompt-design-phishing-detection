@@ -19,7 +19,9 @@ configs/config.json       Experiment settings and prompt definitions
 data/sample/emails.csv    Eight synthetic emails for a smoke test
 docs/methodology_card.md  Methodology passport card
 src/benchmark.py          Runs both prompt conditions and calculates metrics
-requirements.txt           Pinned Python package dependency
+tests/test_benchmark.py   Checks label parsing and metric calculations
+environment.yml           Pinned Conda/Python environment
+requirements.txt          Pinned Python package dependency
 ```
 
 ## System requirements
@@ -30,6 +32,8 @@ requirements.txt           Pinned Python package dependency
 - About 2 GB free disk space for the `llama3.2:3b` model
 
 The model is served locally by Ollama. No API key is required. The model tag and generation settings are recorded in the configuration.
+
+The reproducible Conda environment pins Python 3.12.8 and the Python dependency. Create it with `conda env create -f environment.yml` and activate it with `conda activate phishing-prompt-benchmark`.
 
 ## Quickstart
 
@@ -52,6 +56,8 @@ python src/benchmark.py --config configs/config.json
 ```
 
 The script saves `results/predictions.csv` and `results/summary.json`. The sample output is a pipeline check only; it is not a final research result.
+
+Run the lightweight unit tests with `python -m unittest discover -s tests`.
 
 ## Planned benchmark metrics
 
