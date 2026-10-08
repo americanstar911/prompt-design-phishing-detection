@@ -1,0 +1,8 @@
+name: phishing-prompt-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  - pip=25.2
+  - pip:
+      - requests==2.32.5
