@@ -66,7 +66,7 @@ def classify(email_text: str, prompt: str, config: dict) -> tuple[str, str]:
     return parse_label(content), content
 
 
-def calculate_metrics(rows: list[dict[str, str]]) -> dict[str, float | int]:
+def calculate_metrics(rows: list[dict[str, str]]) -> dict[str, object]:
     tp = sum(r["true_label"] == "phishing" and r["predicted_label"] == "phishing" for r in rows)
     tn = sum(r["true_label"] == "legitimate" and r["predicted_label"] == "legitimate" for r in rows)
     fp = sum(r["true_label"] == "legitimate" and r["predicted_label"] == "phishing" for r in rows)
