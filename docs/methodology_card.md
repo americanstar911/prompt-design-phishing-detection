@@ -46,7 +46,7 @@ The 8 synthetic emails in `data/sample/emails.csv` are only a pipeline smoke tes
 
 ## Dataset
 
-The final experiment uses a public labeled email dataset: [DATASET NAME] ([link or source]).
+The final experiment uses a public labeled email dataset: zefang-liu/phishing-email-dataset, file Phishing_Email.csv (https://huggingface.co/datasets/zefang-liu/phishing-email-dataset).
 From it, 400 emails were sampled: 200 phishing and 200 legitimate, so the two classes are balanced.
 The sample was drawn with random seed 42, so anyone can get the same 400 emails.
 Each email was cut to 2,000 characters to keep requests short and the runtime reasonable.
