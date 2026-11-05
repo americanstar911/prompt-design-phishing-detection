@@ -160,3 +160,9 @@ models/
 *.pth
 *.onnx
 *.bin
+
+# macOS
+.DS_Store
+
+# Large public datasets are downloaded locally; commit only the small sample
+data/external/

@@ -6,3 +6,10 @@ dependencies:
   - pip=25.2
   - pip:
       - requests==2.32.5
+      - numpy==2.0.2
+      - pandas==2.2.3
+      - matplotlib==3.9.4
+      - seaborn==0.13.2
+      - nbformat==5.10.4
+      - nbconvert==7.16.4
+      - ipykernel==6.29.5

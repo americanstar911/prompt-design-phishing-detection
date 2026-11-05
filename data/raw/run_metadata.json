@@ -1,0 +1,15 @@
+{
+  "python": "3.12.16",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "requests": "2.32.5",
+  "model": "llama3.2:3b",
+  "temperature": 0,
+  "seed": 42,
+  "dataset_path": "data/sample/emails_eval.csv",
+  "dataset_sha256": "1a4c780f136708b8ca065cad7318e69d1aa604833e788d6b742d7a5aee3e602f",
+  "ollama_version": "0.40.3",
+  "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "started_utc": "2026-11-05T11:45:07.750+00:00",
+  "warmup_requests_per_condition": 3,
+  "finished_utc": "2026-11-05T11:49:13.582+00:00"
+}

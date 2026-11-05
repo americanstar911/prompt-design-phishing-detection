@@ -1,0 +1,31 @@
+{
+  "source_file": "Phishing_Email.csv",
+  "source_sha256": "18ef4fff1acb8986f0ab01e83ede6025420c829656af5a377560fce17e153b97",
+  "seed": 42,
+  "per_class": 200,
+  "max_chars": 2000,
+  "min_chars": 20,
+  "statistics": {
+    "rows_in_file": 18650,
+    "text_column": "Email Text",
+    "label_column": "Email Type",
+    "after_dropping_empty": 18634,
+    "after_min_length": 18085,
+    "texts_with_conflicting_labels_removed": 0,
+    "after_deduplication": 17508,
+    "available_per_class": {
+      "legitimate": 10974,
+      "phishing": 6534
+    },
+    "original_chars_median": 806.5,
+    "original_chars_max": 34213,
+    "truncated_emails": 98,
+    "sample_size": 400,
+    "sample_per_class": {
+      "phishing": 200,
+      "legitimate": 200
+    },
+    "sample_chars_median": 806.5,
+    "sample_chars_max": 2000
+  }
+}

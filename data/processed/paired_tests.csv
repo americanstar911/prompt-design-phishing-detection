@@ -1,0 +1,4 @@
+metric,n_emails,baseline_only,proposed_only,p_value,p_value_bonferroni
+accuracy,400,30,11,0.00432400493446039,0.012972014803381171
+phishing_detection_rate,200,29,3,2.5560148060321808e-06,7.668044418096542e-06
+false_positive_rate,200,8,1,0.0390625,0.1171875
