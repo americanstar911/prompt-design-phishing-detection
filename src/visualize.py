@@ -135,7 +135,7 @@ def make_all(result: dict, out_dir: Path = FIGURE_DIR) -> list[Path]:
     conditions = result["conditions"]
     saved = []
     for name, fig in (
-        ("fig1_latency_vs_length", figure_latency_vs_length(result["by_length"], conditions)),
+        ("fig1_latency_vs_load", figure_latency_vs_length(result["by_length"], conditions)),
         ("fig2_distribution_boxplot", figure_latency_boxplot(result["evaluation"], conditions)),
         ("fig3_metrics_with_ci", figure_metrics_ci(result["metrics"], conditions)),
     ):
